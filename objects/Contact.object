@@ -489,8 +489,8 @@
     <validationRules>
         <fullName>Contact_Validation_Rule</fullName>
         <active>true</active>
-        <errorConditionFormula>ISBLANK( Email ) &amp;&amp; ISBLANK( MobilePhone )</errorConditionFormula>
-        <errorMessage>Please enter a mobile phone number or email address before saving the Contact record.</errorMessage>
+        <errorConditionFormula>( ISBLANK( Email ) &amp;&amp; ISBLANK( MobilePhone ) ) || ISBLANK( Account.Description )</errorConditionFormula>
+        <errorMessage>Please enter a mobile phone number or email address before saving the Contact record. Also, please make sure the parent Account record has a Description.</errorMessage>
     </validationRules>
     <webLinks>
         <fullName>GoogleMaps</fullName>
