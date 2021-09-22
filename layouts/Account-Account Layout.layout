@@ -33,6 +33,10 @@
                 <behavior>Edit</behavior>
                 <field>Test1__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>number_test__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
