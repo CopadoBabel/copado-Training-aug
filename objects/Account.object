@@ -239,6 +239,17 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Abbott_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Abbott Test</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
